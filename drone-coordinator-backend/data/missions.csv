@@ -1,0 +1,6 @@
+project_id,client,location,required_skills,required_certs,start_date,end_date,priority
+PRJ001,"ABC Infrastructure","Bangalore","Thermal Imaging, LiDAR","DGCA, Safety Certified","2026-02-15","2026-02-20","High"
+PRJ002,"XYZ Construction","Mumbai","Photography, Survey","Commercial License","2026-02-18","2026-02-25","Medium"
+PRJ003,"Green Energy Ltd","Hyderabad","Inspection, Thermal","Safety Certified, Environmental","2026-02-12","2026-02-14","Urgent"
+PRJ004,"City Planning Dept","Chennai","Mapping, RGB Photography","DGCA, Public Safety","2026-03-01","2026-03-10","Standard"
+PRJ005,"Disaster Relief Org","Delhi","Emergency Response, Video","Emergency Certified","2026-02-11","2026-02-13","Critical"

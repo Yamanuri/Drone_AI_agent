@@ -1,0 +1,6 @@
+pilot_id,name,skills,certifications,location,status,current_assignment,available_from
+P001,"Arjun Patel","Mapping, Survey, Thermal Imaging","DGCA, Night Operations","Bangalore","Available","","2026-02-10"
+P002,"Priya Sharma","LiDAR, Photogrammetry","Commercial License, Advanced Training","Hyderabad","Available","","2026-02-10"
+P003,"Rajesh Kumar","RGB Photography, Inspection","Basic License, Safety Certified","Chennai","In Flight","PRJ001","2026-02-15"
+P004,"Meera Nair","Hyperspectral, Survey","DGCA, Environmental","Mumbai","Maintenance","PRJ002","2026-02-20"
+P005,"Vikram Singh","4K Video, Emergency Response","Emergency Certified, Advanced","Delhi","Available","","2026-02-10"

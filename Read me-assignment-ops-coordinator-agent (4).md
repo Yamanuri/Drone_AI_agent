@@ -1,0 +1,102 @@
+# Technical Assignment: Drone Operations Coordinator AI Agent
+
+## Problem Statement
+
+Skylark Drones operates a fleet of drones and pilots across multiple client projects simultaneously. Currently, a drone operations coordinator manually handles:
+
+- **Pilot roster management**: Tracking who's available, on leave, or assigned to projects
+- **Assignment coordination**: Matching the right pilot to the right project based on skills, location, and availability
+- **Drone inventory**: Tracking which drones are available, in maintenance, or deployed where
+- **Conflict resolution**: Detecting scheduling conflicts, skill mismatches, and equipment issues
+
+**The Challenge:** This is a high-context, high-coordination role that requires constant context-switching between spreadsheets, messages, and project management tools. An AI agent could significantly improve efficiency and reduce coordination overhead.
+
+**Your Task:** Build an AI agent that can handle the core responsibilities of a drone operations coordinator.
+
+## Sample Data
+
+You will receive two reference CSV/Google Sheets:
+
+1. **Pilot Roster** — Sample fields may include: name, skill level, certifications, drone experience, current location, current assignment, status
+2. **Drone Fleet** — Sample fields may include: model, serial number, capabilities, current assignment, status, location
+
+These are indicative samples. You may add columns or fields as necessary for your implementation.
+
+## Core Features
+
+Your agent must handle these four areas:
+
+### 1. Roster Management
+- Query pilot availability by skill, certification, location
+- View current assignments
+- Update pilot status (Available / On Leave / Unavailable) — *must sync back to Google Sheet*
+
+### 2. Assignment Tracking
+- Match pilots to projects based on requirements
+- Track active assignments
+- Handle reassignments
+
+### 3. Drone Inventory
+- Query fleet by capability, availability, location
+- Track deployment status
+- Flag maintenance issues
+- Update status  - sync back to google sheets.
+
+### 4. Conflict Detection
+- Double-booking detection (pilot or drone assigned to overlapping projects)
+- Skill/certification mismatch warnings
+- Equipment-pilot location mismatch alerts
+
+### Edge Cases You Must Handle
+- Pilot assigned to overlapping project dates
+- Pilot assigned to job requiring certification they lack
+- Drone assigned but currently in maintenance
+- Pilot and assigned drone in different locations
+
+## Bonus Requirement (not optional)
+
+> "The agent should help coordinate urgent reassignments"
+
+How you interpret and implement this is up to you. Document your interpretation in your Decision Log.
+
+## Integration Requirements
+
+**Google Sheets — 2-way sync **
+- **Read:** All data from both sheets (Pilot Roster and Drone Fleet)
+- **Write:** Pilot status updates must sync back to the Pilot Roster sheet
+
+## Deliverables
+
+### 1. Hosted Prototype (Required)
+- Working agent accessible via link
+- Platform of your choice (Replit, Vercel, Railway, HuggingFace Spaces, etc.)
+- Must be testable without local setup
+
+### 2. Decision Log (Required, 2 page max)
+- Key assumptions you made
+- Trade-offs chosen and why
+- What you'd do differently with more time
+- How you interpreted "urgent reassignments"
+
+### 3. Source Code
+- ZIP file
+- README with architecture overview
+
+## Technical Expectations
+
+- **Conversational Interface**: The user will interact with your agent conversationally, handle that to the best of your (agents') ability
+- **Google Sheets Integration**: 2-way as specified above
+- **Error Handling**: Graceful handling of edge cases and conflicts
+- **Tech Stack**: Your choice — justify your decisions in the Decision Log
+
+## Timeline
+
+**6 hours**
+
+## Questions?
+
+If you have clarifying questions, document your assumptions and proceed. Part of the evaluation is seeing how you handle ambiguity and make decisions with incomplete information.
+
+---
+
+**Good luck!**

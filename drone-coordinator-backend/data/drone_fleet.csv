@@ -1,0 +1,6 @@
+drone_id,model,capabilities,status,location,current_assignment,maintenance_due
+D001,"DJI Matrice 300","Thermal, LiDAR, RGB","Available","Bangalore","","2026-03-01"
+D002,"DJI Phantom 4 RTK","RGB, Photogrammetry","Available","Mumbai","","2026-02-28"
+D003,"Autel EVO II Pro","4K, RGB, Thermal","In Flight","Chennai","PRJ001","2026-04-15"
+D004,"Parrot ANAFI USA","Thermal, Hyperspectral","Maintenance","Hyderabad","PRJ003","2026-02-12"
+D005," senseFly eBee X","LiDAR, RGB, Multispectral","Available","Delhi","","2026-05-20"

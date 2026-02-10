@@ -1,0 +1,5 @@
+drone_id,model,capabilities,status,location,current_assignment,maintenance_due
+D001,DJI M300,"LiDAR, RGB",Available,Bangalore,–,01-03-2026
+D002,DJI Mavic 3,RGB,Maintenance,Mumbai,–,01-02-2026
+D003,DJI Mavic 3T,Thermal,Available,Mumbai,–,01-04-2026
+D004,Autel Evo II,"Thermal, RGB",Available,Bangalore,–,15-03-2026
